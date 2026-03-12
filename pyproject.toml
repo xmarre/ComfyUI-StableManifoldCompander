@@ -1,0 +1,10 @@
+[project]
+name = "comfyui-stable-manifold-compander"
+version = "0.2.0"
+description = "Merged anchor-guided and affine stable-manifold companding nodes for ComfyUI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.ruff]
+line-length = 120
