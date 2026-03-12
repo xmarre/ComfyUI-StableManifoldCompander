@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-stable-manifold-compander"
-version = "0.2.0"
-description = "Merged anchor-guided and affine stable-manifold companding nodes for ComfyUI"
+version = "0.2.1"
+description = "ComfyUI custom nodes for correcting FLUX.2 high-resolution drift, washout, and crop reintegration artifacts with anchor-guided and affine companding workflows"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
