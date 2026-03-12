@@ -4,7 +4,18 @@ version = "0.2.0"
 description = "Merged anchor-guided and affine stable-manifold companding nodes for ComfyUI"
 readme = "README.md"
 requires-python = ">=3.10"
-license = {text = "MIT"}
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/xmarre/ComfyUI-StableManifoldCompander"
+Documentation = "https://github.com/xmarre/ComfyUI-StableManifoldCompander#readme"
+"Bug Tracker" = "https://github.com/xmarre/ComfyUI-StableManifoldCompander/issues"
+
+[tool.comfy]
+PublisherId = "xmarre"
+DisplayName = "ComfyUI-StableManifoldCompander"
+Icon = ""
+includes = []
 
 [tool.ruff]
 line-length = 120
